@@ -1,0 +1,42 @@
+.model-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.dept{
+    background-color: blueviolet;
+    padding: 40px;
+}
+
+
+.flex {
+    margin: 15px 15px 15px 0;
+    width: 370px;
+    height: 290px;
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.flex img {
+    z-index: -3;
+}
+.deott{
+    color: white;
+}
+
+.flex>h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+    z-index: 1;
+    padding: 20px 10px  10px 10px;
+    background-color: white;
+    height: 70px;
+    cursor: pointer;
+}
+.flex>h5:hover{
+    color: blueviolet;
+    font-weight: 800;
+}
